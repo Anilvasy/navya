@@ -1,0 +1,52 @@
+*{
+  background-color: black;
+  padding: 0;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+  b{
+  color: black;
+}
+h1{
+    color:  rgb(255,0,0);
+    
+}
+h3{
+  color:rgb(244, 134, 134)
+}
+nav{
+  background-color:rgb(120,120,120);
+  height: 80px;
+  width: 100%;
+}
+nav ul{
+   align-items: center;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: rgba(3, 0, 0, 0.5);
+  font-size: 25px;
+  padding: 7px 13px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background-color: rgb(166, 52, 52);
+  transition: 5s;
+}
+
+  h2{
+  color: red;
+}
+a.more{
+  height: 80px;
+  width: 80px;
+  float: calc(center);
+  padding: 7px 13px;
+}
